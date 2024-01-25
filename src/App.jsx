@@ -32,9 +32,8 @@ export default function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-
-      <div>
+    <div className='bg-black px-80'>
+      <div >
         <div>
           <div className='header'>
             <h3>Home</h3>
@@ -42,27 +41,27 @@ export default function App() {
           </div>
           <div>
             <div className='profilphoto'>
-            <Icones urlImg={profilePhoto} />
+              <Icones urlImg={profilePhoto} />
             </div>
             <div>
-            <input type="text" placeholder="What's happening?" />
-            <div className='icones'>
-            <Mybutton name="Twitter" />
-            <Icones urlImg={icoMedia} altImg="Media" />
-            <Icones urlImg={iconGif} altImg="Gif" />
-            <Icones urlImg={iconPoll} altImg="Poll" />
-            <Icones urlImg={iconEmoji} altImg="Emoji" />
-            <Icones urlImg={iconSchedule} altImg="Schedule" />
-            <Icones urlImg={iconTwitter} altImg="Twitter" />
-            </div>
+              <input type="text" placeholder="What's happening?" />
+              <div className='icones'>
+                <Mybutton name="Twitter" />
+                <Icones urlImg={icoMedia} altImg="Media" />
+                <Icones urlImg={iconGif} altImg="Gif" />
+                <Icones urlImg={iconPoll} altImg="Poll" />
+                <Icones urlImg={iconEmoji} altImg="Emoji" />
+                <Icones urlImg={iconSchedule} altImg="Schedule" />
+                <Icones urlImg={iconTwitter} altImg="Twitter" />
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div>
         <div className='Paragraphe' bg-black >
-          </div>
-          
+        </div>
+
         <h5>CNN</h5>
         <Icones urlImg={iconVerified} altImg="Verified" />
       </div>
@@ -98,29 +97,29 @@ export default function App() {
       <div>
         <h5>Twitter</h5>
 
-  
-<div>
-  <div>
-  </div>
+
+        <div>
+          <div>
+          </div>
 
 
-<Icones urlImg={iconReply} altImg="Reply" />
-        <Icones urlImg={iconRetweet} altImg="Retweet" />
-        <Icones urlImg={iconReact} altImg="React" />
-        <Icones urlImg={iconShare} altImg="Share" />
+          <Icones urlImg={iconReply} altImg="Reply" />
+          <Icones urlImg={iconRetweet} altImg="Retweet" />
+          <Icones urlImg={iconReact} altImg="React" />
+          <Icones urlImg={iconShare} altImg="Share" />
 
-  </div>
-</div>
-<h5>Tweeter</h5>
-<Icones urlImg={iconReply} altImg="Reply" />
-        <Icones urlImg={iconRetweet} altImg="Retweet" />
-        <Icones urlImg={iconReact} altImg="React" />
-        <Icones urlImg={iconShare} altImg="Share" />
-
-<div>
-        <div/>
+        </div>
       </div>
-    </>
+      <h5>Tweeter</h5>
+      <Icones urlImg={iconReply} altImg="Reply" />
+      <Icones urlImg={iconRetweet} altImg="Retweet" />
+      <Icones urlImg={iconReact} altImg="React" />
+      <Icones urlImg={iconShare} altImg="Share" />
+
+      <div>
+        <div />
+      </div>
+    </div>
 
   )
 }
